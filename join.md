@@ -1,5 +1,5 @@
 ---
-layout: single
+# The --- followed by a --- needs to be here for Jekyll to recognize the page :)
 ---
 
 # Joining UBC Soaring

@@ -1,4 +1,5 @@
 ---
+# Use the category layout and set it to show meeting minutes posts only
 layout: category
 taxonomy: minutes
 ---

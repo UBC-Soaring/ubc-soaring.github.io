@@ -1,15 +1,16 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+# This sets up the home page using the [splash page layout](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#splash-page-layout)
+# of our theme. Below that, I manually copied the code to include links to blog posts (announcements and minutes) from the theme itself.
 
 layout: splash
+title: "UBC Soaring"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/bkg.jpg
   actions:
     - label: "Join!"
-      url: "/join/"
+      url: "/join"
   caption: "Photo by **[Ekansh Saxena](https://unsplash.com/@ekansh005)** on **[Unsplash](https://unsplash.com/photos/white-airplane-on-sky-51djUJsmpPc)**"
 
 excerpt: >-

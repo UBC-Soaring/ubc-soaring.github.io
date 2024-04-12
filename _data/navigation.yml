@@ -1,6 +1,7 @@
+# This determines what goes in the navbar at the top of every page
 main:
   - title: "Join"
-    url: /join/
+    url: /join
   - title: "Announcements"
     url: /announcements/
   - title: "Meeting Minutes"
