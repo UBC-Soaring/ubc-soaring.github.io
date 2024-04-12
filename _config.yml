@@ -18,19 +18,56 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: UBC Soaring
+#email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://ubc-soaring.github.io" # TEMPORARY! the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: jekyllrb
+#github_username:  jekyll
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: air
+show_date: true
+
+permalink: /:categories/:year/:month-:day-:title:output_ext
+
+defaults:
+  # _posts
+  - scope:
+      path: "minutes/*"
+    values:
+      layout: single
+      show_date: true
+      read_time: true
+      share: true
+      related: true
+      toc: true
+      toc_label: "Table of Contents"
+      toc_sticky: true
+      sidebar:
+        - title: "Meeting Minutes"
+          text: >-
+            To help make club operations transparent and allow easy access to resources, minutes must be taken at all
+            meetings and posted here.
+        - title: "Browse All Minutes"
+          text: "You can access a full list of meeting minutes [here](/minutes/)."
+  - scope:
+      path: "announcements/*"
+    values:
+      layout: single
+      show_date: true
+      read_time: true
+      share: true
+      related: true
+      sidebar:
+        - title: "Announcements"
+          text: >-
+            Stay up to date on the latest club news by keeping an eye on announcements posted here.
 plugins:
   - jekyll-feed
 

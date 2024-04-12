@@ -1,0 +1,7 @@
+main:
+  - title: "Join"
+    url: /join/
+  - title: "Announcements"
+    url: /announcements/
+  - title: "Meeting Minutes"
+    url: /minutes/
