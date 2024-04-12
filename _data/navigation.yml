@@ -4,5 +4,33 @@ main:
     url: /join
   - title: "Announcements"
     url: /announcements/
+  - title: "Resources"
+    url: /resources/
   - title: "Meeting Minutes"
     url: /minutes/
+
+resources:
+  - title: "Resources Home"
+    url: /resources/
+    children:
+      - title: "Contributing"
+        url: /resources/contributing
+  - title: Club Operations
+    children:
+      - title: "Bylaws"
+        url: /resources/bylaws
+      - title: "Meeting Minutes"
+        url: /minutes/
+      - title: "Executive Positions"
+        url: /resources/exec
+  - title: "Flight Safety"
+  - title: "Simulator"
+  - title: "FAQs"
+    children:
+      - title: "Licensing Requirements"
+        url: /resources/faq#licensing-requirements
+      - title: "Funding"
+        url: /resources/faq#funding
+      - title: "Time Commitment"
+        url: /resources/faq#time-commitment
+

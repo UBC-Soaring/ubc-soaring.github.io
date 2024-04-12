@@ -52,12 +52,7 @@ defaults:
       toc_label: "Table of Contents"
       toc_sticky: true
       sidebar:
-        - title: "Meeting Minutes"
-          text: >-
-            To help make club operations transparent and allow easy access to resources, minutes must be taken at all
-            meetings and posted here.
-        - title: "Browse All Minutes"
-          text: "You can access a full list of meeting minutes [here](/minutes/)."
+        nav: resources
   - scope:
       path: "announcements/*"
     values:
@@ -70,6 +65,34 @@ defaults:
         - title: "Announcements"
           text: >-
             Stay up to date on the latest club news by keeping an eye on announcements posted here.
+  - scope:
+      path: "resources/"
+    values:
+      layout: single
+      show_date: true
+      read_time: true
+      share: true
+      toc: true
+      toc_label: "Table of Contents"
+      toc_sticky: true
+      sidebar:
+        nav: resources
+
+footer:
+  links:
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url: "https://twitter.com/mmistakes"
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/mmistakes"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/ubcsoaring"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/company/ubcsoaring"
+      
 plugins:
   - jekyll-feed
   - jekyll-remote-theme

@@ -1,8 +1,6 @@
 ---
-# The --- followed by a --- needs to be here for Jekyll to recognize the page :)
+title: "Joining UBC Soaring"
 ---
-
-# Joining UBC Soaring
 
 We are an unaffiliated club at the University of British Colombia in Vancouver. 
 
