@@ -7,7 +7,7 @@ title: "UBC Soaring"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/bkg.jpg
+  overlay_image: /assets/site-images/bkg.jpg
   actions:
     - label: "Join Now!"
       url: "/join"

@@ -8,11 +8,11 @@ Meeting on 2024-04-03, 19:00-20:30
 
 # Results of soaring club survey
 
-![Survey graph](/assets/2024-04-03%20Soaring%20Notes_html_71ebf8052bf0cae8.png)
-![Survey graph](/assets/2024-04-03%20Soaring%20Notes_html_3e04686209f2dd12.png)
-![Survey graph](/assets/2024-04-03%20Soaring%20Notes_html_d0e153bbc392d3c7.png)
-![Survey graph](/assets/2024-04-03%20Soaring%20Notes_html_9d4d51a1868d252e.png)
-![Survey graph](/assets/2024-04-03%20Soaring%20Notes_html_740e6a83f528cfde.png)
+![Survey graph](/assets/post-images/2024-04-03%20Soaring%20Notes_html_71ebf8052bf0cae8.png)
+![Survey graph](/assets/post-images/2024-04-03%20Soaring%20Notes_html_3e04686209f2dd12.png)
+![Survey graph](/assets/post-images/2024-04-03%20Soaring%20Notes_html_d0e153bbc392d3c7.png)
+![Survey graph](/assets/post-images/2024-04-03%20Soaring%20Notes_html_9d4d51a1868d252e.png)
+![Survey graph](/assets/post-images/2024-04-03%20Soaring%20Notes_html_740e6a83f528cfde.png)
 
 * Results of soaring club survey; This was the one linked on the poster
 * This was the one linked on the poster; Conclusions:

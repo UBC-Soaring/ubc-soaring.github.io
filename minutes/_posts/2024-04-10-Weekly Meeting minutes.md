@@ -106,8 +106,8 @@ tags: weekly-minutes general-meeting
         *   Approximate cost: ~$18/hr or $100/day
     *   _**Modo**_
         *   Modo Sedan Approx. Price: ~$115
-![](/assets/2024-04-10-modo1.png)
+![](/assets/post-images/2024-04-10-modo1.png)
         *   Modo SUV Approx. Price: $~155
-![](/assets/2024-04-10-modo2.png)
+![](/assets/post-images/2024-04-10-modo2.png)
         *   [https://www.modo.coop/get-a-plan](https://www.modo.coop/get-a-plan)
 

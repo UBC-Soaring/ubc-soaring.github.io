@@ -4,7 +4,7 @@ title: "Executive Positions"
 feature_row:
   - title: Nathan Pennie
     alt: Nathan Pennie
-    image_path: /assets/exec-nathan-pennie.png
+    image_path: /assets/site-images/exec-nathan-pennie.png
     excerpt: |
       **President**
       
@@ -16,14 +16,6 @@ feature_row:
       [\[m\]](https://matrix.to/#/@kb1rd:kb1rd.net){: .btn .btn--primary}
       [<i class="fab fa-instagram" aria-hidden="true"></i>](https://instagram.com/kb1rd_){: .btn .btn--primary}
       [<i class="fab fa-linkedin" aria-hidden="true"></i>](https://www.linkedin.com/in/kb1rd){: .btn .btn--primary}
-      
-    social:
-      - label: "Instagram"
-        icon: "fab fa-fw fa-instagram"
-        url: ""
-      - label: "LinkedIn"
-        icon: "fab fa-fw fa-linkedin"
-        url: "https://www.linkedin.com/in/kb1rd"
 ---
 
 # Current Execs
