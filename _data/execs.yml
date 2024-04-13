@@ -1,0 +1,37 @@
+roles:
+  - name: "President"
+    responsibilities: |
+      * Call and oversee meetings
+      * Oversee club operations
+      * Delegate tasks to exec team where appropriate
+      * Ensure that club rules/bylaws are followed (and write them)
+      * Ensure that the club is performing safe and legal operations
+      * Coordinate interactions with the school/AMS
+  - name: "Treasurer"
+    responsibilities: |
+      * Write and manage club budget
+      * Manage club bank accounts (if we get one)
+      * Manage and track all club assets (ex, who has the simulator parts)
+  - name: "VP Marketing"
+    responsibilities: |
+      * Responsible for social media presence
+      * Manage accounts on Instagram, Facebook, LinkedIn, maybe TikTok, and AMS CampusBase
+      * Manage website announcements, but other roles would likely make their own
+      * Create engaging outreach content and bring people in to the club
+  - name: "VP External"
+    responsibilities: |
+      * Reach out to gliding clubs in the Lower Mainland, other gliding related areas
+      * Coordinate operations with external soaring clubs, keep tabs on soaring operations (fixed wing, handgliding, and paragliding) in the area
+      * Stay accountable with whichever club we partner with and keeping tabs on the soaring community
+  - name: "VP Internal"
+    responsibilities: |
+      * Coordinate sim nights, networking, social gatherings
+      * Create new events for the club
+      * Organize new member activities (intro flights, etc.)
+      * Help coordinate ride shares to airports, but indvidual club members will likely do a lot of this on their own
+  - name: "Secretary"
+    responsibilities: |
+      * The secretary simply needs to show up to most meetings and take notes
+      * The time commitment is different in nature from the other roles since the secretary only needs to work at specific times
+      * Doesn't need to show up to every meeting in the event of conflicts, but should be available for most of them
+      
