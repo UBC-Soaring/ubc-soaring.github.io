@@ -1,6 +1,6 @@
 ---
 title: "Weekly Meeting Minutes: Soaring Club Meeting #2"
-tags: weekly
+tags: weekly-minutes general-meeting
 ---
 
 # **Club Responsibilities**

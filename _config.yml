@@ -66,7 +66,7 @@ defaults:
           text: >-
             Stay up to date on the latest club news by keeping an eye on announcements posted here.
   - scope:
-      path: "resources/"
+      path: "resources/*"
     values:
       layout: single
       show_date: true
@@ -77,6 +77,22 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: resources
+
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+    - year
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+    year: archive-taxonomy
+  permalinks:
+    tag: /tags/:name/
+    year: /archive/:year/
 
 footer:
   links:
@@ -97,6 +113,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-archives
 
 # Exclude from processing.
 # The following items will not be processed, by default.

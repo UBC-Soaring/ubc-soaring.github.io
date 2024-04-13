@@ -35,3 +35,4 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 # These are used to set up the theme
 gem "jekyll-remote-theme"
 gem "jekyll-include-cache"
+gem "jekyll-archives"

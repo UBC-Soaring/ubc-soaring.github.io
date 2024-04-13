@@ -9,7 +9,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/bkg.jpg
   actions:
-    - label: "Join!"
+    - label: "Join Now!"
       url: "/join"
   caption: "Photo by **[Ekansh Saxena](https://unsplash.com/@ekansh005)** on **[Unsplash](https://unsplash.com/photos/white-airplane-on-sky-51djUJsmpPc)**"
 

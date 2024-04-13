@@ -1,6 +1,6 @@
 ---
 title: "Weekly Meeting Minutes: Soaring Club Meeting #1"
-tags: weekly
+tags: weekly-minutes general-meeting
 ---
 Meeting on 2024-04-03, 19:00-20:30
 *   These are rough notes; I’m still figuring out how to do this best. This is not necessarily in order
