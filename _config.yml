@@ -122,3 +122,113 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+prose:
+  # Prose is meant to be a simpler code-less editor; Hide a lot of the more technical files
+  # I also included some stuff in the gitignore since I'm using a local version
+  ignore: ['.github', '.jekyll-cache', '_site', '.gitignore', 'Gemfile', 'Gemfile.lock', 'README.md', '_sass', '_includes']
+  media: "assets"
+  
+  # bugging out localprose
+  siteurl: https://ubc-soaring.github.io
+  
+  metadata:
+    "":
+      - name: "title"
+        field:
+          element: "text"
+          type: "text"
+      - name: "layout"
+        field:
+          element: "select"
+          label: "Layout"
+          help: "Select the layout -- See https://mmistakes.github.io/minimal-mistakes/docs/layouts/ for options"
+          alterable: true
+          options:
+            - name: Default
+              value: single
+            - name: Splash Page (Header image with text)
+              value: splash
+            - name: Super Wide Page (No ToC)
+              value: wide
+            - name: Home (Post Listing)
+              value: home
+            - name: Post Archive (see link)
+              value: posts
+            - name: Categories Archive (see link)
+              value: categories
+            - name: Tags Archive (see link)
+              value: tags
+            - name: Collection Archive (see link)
+              value: collection
+            - name: Category Archive (see link)
+              value: category
+            - name: Tag Archive (see link)
+              value: tag
+      - name: "excerpt"
+        field:
+          element: "textarea"
+          label: "Excerpt Text"
+          help: "Add a summary to the page. This is used on the splash layout, and included in post listings for posts."
+    minutes/_posts:
+      - name: "title"
+        field:
+          element: "text"
+          type: "text"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          help: "Add tags to this minutes post to help people find it"
+          alterable: true
+          options:
+            - name: weekly-minutes
+              value: weekly-minutes
+            - name: general-meeting
+              value: general-meeting
+    announcements/_posts:
+      - name: "title"
+        field:
+          element: "text"
+          type: "text"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          help: "Add tags to this announcement to help people find it"
+          alterable: true
+          options:
+            - name: exec-team
+              value: exec-team
+            - name: recruitment
+              value: recruitment
+            - name: president
+              value: president
+            - name: treasurer
+              value: treasurer
+            - name: vp-marketing
+              value: vp-marketing
+            - name: vp-external
+              value: vp-external
+            - name: vp-internal
+              value: vp-internal
+            - name: secretary
+              value: secretary
+      - name: "toc"
+        field:
+          element: "checkbox"
+          label: "Enable Table of Contents"
+          value: false
+      - name: "toc_label"
+        field:
+          element: "text"
+          type: "text"
+          label: "Label for the Table of Contents"
+          value: "Table of Contents"
+      - name: "toc_sticky"
+        field:
+          element: "checkbox"
+          label: "Have the table of contents follow down the page as the user scrolls?"
+          help: "Probably leave this set"
+          value: true
+
